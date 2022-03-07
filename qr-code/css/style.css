@@ -42,3 +42,18 @@ body{
     text-align: center;
     color: hsl(220, 15%, 55%);
 }
+
+
+@media(min-width:400px) {
+        .container {
+            width: 310px;
+            height:521px;
+            margin: 80px auto;
+    }
+        .attribution{
+            display: flex;
+            justify-content:center;
+            margin:0 auto;
+        }
+    
+}

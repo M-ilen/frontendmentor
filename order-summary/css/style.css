@@ -1,0 +1,116 @@
+html {
+    font-size:16px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body { 
+    background-color:hsl(225, 100%, 94%);
+}
+
+.box-container{
+    margin: 100px 20px;
+    border:2px;
+    border-radius:15px;
+    background-color:hsl(225, 100%, 98%);
+}
+
+.container-img{
+    display: flex;
+    justify-content:center;
+    margin:0 auto;
+}
+
+.title{
+    padding-top:9px;
+    text-align:center;
+    font-size:1.7rem;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%)
+}
+
+.inf{
+    padding:5px 15px;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color:hsl(224, 23%, 55%)
+}
+
+.img{
+    width:100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.selection{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    border:1px;
+    border-radius:15px;
+    margin:18px;
+    background-color: hsl(225, 100%, 97%);
+}
+
+.icono{
+    border:1px;
+    width:15%;
+    height:50%;
+    padding-top:15px;
+}
+
+.description{
+    border:1px;
+    font-size:1rem;
+    line-height:1.4;
+    color:hsl(224, 23%, 55%);
+}
+
+.text-danger{
+    color:hsl(223, 47%, 23%);
+    font-weight:700;
+}
+
+.description-2{
+    display:flex;
+    margin-top:15px;
+    border:1px;
+    padding-top:13px;
+    font-size: 1rem;
+} 
+
+.boton{
+    display: flex;
+    justify-content:center;
+    margin:20px;
+    padding:20px;
+    font-weight:900;
+    font-size: 1.1rem;
+    color: hsl(225, 100%, 94%);
+    background-color:hsl(245, 75%, 52%);
+    border-radius: 15px;
+}
+
+.description-3{
+    text-align:center;
+    font-weight: 700;
+    color:hsl(224, 23%, 55%);
+    padding:15px 15px 40px;
+}
+
+.attribution{
+    text-align:center;
+    line-height: 1.6;
+}
+
+@media(min-width:391px) {
+    .box-container{
+        width: 400px;
+        height:auto;
+        margin: 80px auto;
+    }
+    .inf{
+        padding:5px 50px;
+        font-size:1rem
+    }
+}

@@ -20,12 +20,12 @@ body {
     margin:0 auto;
 }
 
-.title{
-    padding-top:9px;
+.title {
+    padding-top: 15px;
     text-align:center;
-    font-size:1.7rem;
+    font-size:1.5rem;
     font-weight: 900;
-    color: hsl(223, 47%, 23%)
+    color: hsl(223, 47%, 23%);
 }
 
 .inf{
@@ -109,6 +109,7 @@ body {
         height:auto;
         margin: 80px auto;
     }
+
     .inf{
         padding:5px 50px;
         font-size:1rem

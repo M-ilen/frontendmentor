@@ -4,7 +4,8 @@ html{
 }
 
 body{
-    margin:70px 20px;
+    margin:70px auto;
+    padding: 10px 30px;
     background-color: hsl(217, 54%, 11%);
 }
 
@@ -14,8 +15,9 @@ hr, strong, a {
 
 .box-container {
     border-radius: 17px;
-    padding:25px 20px 5px 20px;
+    padding:25px 25px 5px 25px;
     background-color:hsl(216, 50%, 16%);
+    box-shadow: 10px 10px hsl(215, 56%, 9%),15px 15px hsl(215, 56%, 9%),-10px 10px hsl(214, 54%, 9%) , -15px 15px hsl(214, 54%, 9%), 15px 15px 15px 30px hsl(217, 54%, 10%), -15px 15px 15px 30px hsl(217, 54%, 10%);
 }
 
 .img-container{
@@ -38,7 +40,7 @@ hr, strong, a {
 }
 
 .description{
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.6;
     color:hsl(215, 51%, 70%);
     font-weight:300;
@@ -59,7 +61,7 @@ hr, strong, a {
  .inf{
      margin-left:9px;
      display:inline-block;
-     font-size: 1rem;
+     font-size: 1.025rem;
      color: hsl(178, 100%, 50%);
      font-weight:400;
  }
@@ -74,7 +76,7 @@ hr, strong, a {
  .inf-1{
     margin-left:9px;
     display:inline-block;
-    font-size: 1rem;
+    font-size: 1.025rem;
     color:hsl(215, 51%, 70%);
     font-weight:400;
 }
@@ -86,13 +88,16 @@ hr, strong, a {
  }
 
  .avatar{
- width:13%;
+ width:16%;
  height:14%;
  margin-right:15px;
+
  }
 
  .img-avatar{
      width:100%;
+     border:2px solid hsl(0, 0%, 100%);
+     border-radius:100%;
  }
 
  .inf-2{
@@ -105,8 +110,23 @@ hr, strong, a {
 
  .attribution{
      padding:20px;
+     margin-top:60px;
      text-align:center;
      font-size:1.1rem;
      line-height: 1.6;
      color:hsl(215, 51%, 70%);
+ }
+
+ @media (min-width:400px){
+    .box-container {
+        width:320px;
+        height: auto;
+        margin: auto;
+    }
+
+    html{
+        font-size:19px;
+    }
+
+
  }

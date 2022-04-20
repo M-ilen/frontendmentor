@@ -1,0 +1,56 @@
+
+html{
+    font-size:15px;
+    font-family:'Lexend Deca', sans-serif;
+}
+
+body{
+    background-color: hsl(233, 47%, 7%); 
+}
+
+a, strong{
+    color:  hsl(277, 64%, 61%);
+}
+
+.target__containet{
+    height: auto;
+    text-align: center;
+    margin:80px 15px;
+    border-radius: 15px;
+    background-color: hsl(244, 38%, 16%);
+}
+
+.target__img{
+    background-image: url("/assets/image-header-mobile.jpg");
+    background-color:hsla(277, 64%, 61%, 0.8);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 15em;
+    background-blend-mode: multiply;
+}
+
+.target__content{
+    padding:15px 20px;
+    font-family: 'Inter', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+.target__inf{
+    font-size: 1.1rem;
+    line-height:1.5;
+    color:hsla(0, 0%, 100%, 0.6);
+}
+.target__option{
+    text-transform: uppercase;
+    line-height:1px;
+    margin-top:40px;
+}
+
+.attribution{
+    text-align: center;
+    line-height:1.6;
+    color: hsl(0, 0%, 100%);
+}
